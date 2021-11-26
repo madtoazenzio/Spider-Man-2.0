@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴄʀᴇᴀᴛᴏʀ : <a href='tg://user?id={OWNER_ID}'>ᴛʜɪs ᴘᴇʀsᴏɴ</a>\n○ ʟᴀɴɢᴜᴀɢᴇ : <code>ᴘʏᴛʜᴏɴ 3</code>\n○ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ ᴀsʏɴᴄɪᴏ {__version__}</a>\n○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/Z_Bots'>ɪ'ᴍ ɴᴏᴛ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ😼</a>\n○ ᴄʜᴀɴɴᴇʟ : @CodeXBotz\n○ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @CodeXBotzSupport</b>",
+            text = f"<b>○ ᴄʀᴇᴀᴛᴏʀ : <a href='tg://user?id={OWNER_ID}'>ᴛʜɪs ᴘᴇʀsᴏɴ</a>\n○ ʟᴀɴɢᴜᴀɢᴇ : <code>ᴘʏᴛʜᴏɴ 3</code>\n○ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ ᴀsʏɴᴄɪᴏ {__version__}</a>\n○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/Z_Bots'>ɪ'ᴍ ɴᴏᴛ ᴏᴘᴇɴ sᴏᴜʀᴄᴇ😼</a>\n○ ᴄʜᴀɴɴᴇʟ : @Z_Bots\n○ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @z_bots_support7</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
